@@ -1,0 +1,11 @@
+/gen
+/spec/tmp
+/results
+.DS_Store
+.idea
+/allure-results
+/allure-report
+Gemfile.lock
+._*
+.ipynb_checkpoints
+.pytest_cache

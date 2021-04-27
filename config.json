@@ -1,0 +1,15 @@
+{
+  "capabilities": {
+    "deviceName": "My Device",
+    "udid": "RF8N70B8GZJ",
+    "platformName": "Android",
+    "automationName": "uiautomator2",
+    "uiautomator2ServerInstallTimeout": 80000,
+    "appPackage": "org.telegram.messenger",
+    "appActivity": "org.telegram.ui.LaunchActivity",
+    "clearSystemFiles": false,
+    "newCommandTimeout": 4000,
+    "noReset": true,
+    "autoAcceptAlerts": true
+  }
+}

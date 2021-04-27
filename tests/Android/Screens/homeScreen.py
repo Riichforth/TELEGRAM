@@ -13,7 +13,7 @@ class HomeScreen(BaseTest, BaseScreen):
         return "Home screen"
 
     screen_title = "Telegram"
-    test_message = "Я же обещал что заспамлю, так что тебе осталось ждать звонка в 3 ночи"
+    test_message = "Test message for telegram"
     telegram_logo = (By.XPATH, "//android.widget.TextView[@text='Telegram']")
     sended_message = (By.XPATH, "//*[contains(@content-desc,'Test message for telegram')]")
     message_field = (By.XPATH, "//android.widget.EditText")
